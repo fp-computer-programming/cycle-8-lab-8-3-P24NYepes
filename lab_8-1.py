@@ -13,3 +13,25 @@ def sum_to(n):
 
 The function should be able to have an integer passed to it and return the sum of all the values from 1 to that integer
 """
+# Nicholas Yepes 12/04/23
+
+def sum_to(n):
+  total = 0  #creates the variable 
+  x = 1  #loop counter
+
+    # begins the while loop counter
+  while x <= n:
+      total += x  # adds the variable i to the total
+      x += 1  
+
+  return total  # returns the total
+
+
+result = sum_to(8)
+print(result)  
+
+
+
+
+
+
